@@ -3,5 +3,6 @@
 # tasks file for my_one_namespace_role
 - name: Создаем файл test.tmp в директории tmp
   my_own_module:
-    path: "{{ path }}"
-    content: "{{ content }}"
+    path: "/tmp/test1.tmp"
+    content: "Проверка работы playbook-а my_own_module\n"
+

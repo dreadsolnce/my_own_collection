@@ -2,4 +2,4 @@
 - name: Create file is role my_one_namespace_role
   hosts: localhost
   roles:
-    - my_one_namespace_role
+    - my_own_namespace.yandex_cloud_elk.my_own_module
